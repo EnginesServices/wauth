@@ -15,12 +15,18 @@
         "level": "alpha",
         "patch": 0
       }
-    }
+    },
+    "timestamp": "2019-07-02T19:12:14+10:00"
   },
   "software": {
     "base": {
+      "name": "wauth",
+      "publisher_namespace": "EnginesSystem",
+      "type_path": "wauth",
+      "deployment_type": "worker",
       "default_stop_timeout": 0,
-      "restart_attempts": 0
+      "restart_attempts": 0,
+      "create_user": "0"
     }
   }
 }
